@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/ACHIEVEMENTFRAME" />
+      <excludeFolder url="file://$MODULE_DIR$/ARCHEOLOGY" />
+      <excludeFolder url="file://$MODULE_DIR$/BattlefieldFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/Buttons" />
+      <excludeFolder url="file://$MODULE_DIR$/CHATFRAME" />
+      <excludeFolder url="file://$MODULE_DIR$/COMMON" />
+      <excludeFolder url="file://$MODULE_DIR$/Calendar" />
+      <excludeFolder url="file://$MODULE_DIR$/Cooldown" />
+      <excludeFolder url="file://$MODULE_DIR$/DialogFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/EncounterJournal" />
+      <excludeFolder url="file://$MODULE_DIR$/FrameGeneral" />
+      <excludeFolder url="file://$MODULE_DIR$/FriendsFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/GROUPFRAME" />
+      <excludeFolder url="file://$MODULE_DIR$/Glues" />
+      <excludeFolder url="file://$MODULE_DIR$/GuildBankFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/HelpFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/LFGFRAME" />
+      <excludeFolder url="file://$MODULE_DIR$/MINIMAP" />
+      <excludeFolder url="file://$MODULE_DIR$/OPTIONSFRAME" />
+      <excludeFolder url="file://$MODULE_DIR$/PVPFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/PaperDoll" />
+      <excludeFolder url="file://$MODULE_DIR$/PaperDollInfoFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/PetBattles" />
+      <excludeFolder url="file://$MODULE_DIR$/PetPaperDollFrame" />
+      <excludeFolder url="file://$MODULE_DIR$/RAIDFRAME" />
+      <excludeFolder url="file://$MODULE_DIR$/SPELLBOOK" />
+      <excludeFolder url="file://$MODULE_DIR$/Scenarios" />
+      <excludeFolder url="file://$MODULE_DIR$/TARGETINGFRAME" />
+      <excludeFolder url="file://$MODULE_DIR$/TIMEMANAGER" />
+      <excludeFolder url="file://$MODULE_DIR$/Tooltips" />
+      <excludeFolder url="file://$MODULE_DIR$/WorldMap" />
+      <excludeFolder url="file://$MODULE_DIR$/WorldStateFrame" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
