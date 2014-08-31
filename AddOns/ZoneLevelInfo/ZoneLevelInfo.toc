@@ -1,0 +1,13 @@
+## Interface: 50400
+## Title: ZoneLevelInfo
+## Notes: Displays player/pet level ranges on the main map, as well as Horde/Alliance/Contested control info.
+## SavedVariables: ZoneLevelInfoSettings
+## Version: 1.8.0
+## Author: DJarv
+
+ZoneLevelInfo_DB.lua
+ZoneLevelInfo_locale.lua
+ZoneLevelInfo_init.lua
+
+ZoneLevelInfo.lua
+ZoneLevelInfo.xml

@@ -1,0 +1,7 @@
+## Interface: 50400
+## Title: RaresTip
+## Notes: adds information on notable drops to (rare) NPC tooltips - contains code derived from SymbiosisTip by Wildbreath
+## Author: Nathanyel
+## Version: r01
+
+RaresTip.lua

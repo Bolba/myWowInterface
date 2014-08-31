@@ -1,0 +1,13 @@
+## Title: Cooking Helper
+## Author: Ryan Olson
+## Interface: 50400
+## Version: 2.03
+## SavedVariables: CookingHelperDB, CookingHelperAltsOn, CH_Known, CH_MaxRecipes, CH_ShowQuests
+## Notes: Displays additional information about meats that can be cooked
+
+Meats.lua
+Recipes.lua
+Notes.lua
+Quests.lua
+Options.lua
+Cooking_Helper.lua

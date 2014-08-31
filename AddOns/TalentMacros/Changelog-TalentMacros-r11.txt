@@ -1,0 +1,15 @@
+------------------------------------------------------------------------
+r11 | nebula169 | 2014-06-30 02:45:48 +0000 (Mon, 30 Jun 2014) | 1 line
+Changed paths:
+   M /trunk/TalentMacros.lua
+
+add /talentmacro
+------------------------------------------------------------------------
+r10 | nebula169 | 2014-05-01 13:33:22 +0000 (Thu, 01 May 2014) | 3 lines
+Changed paths:
+   M /trunk/TalentMacros.lua
+
+show the talent descriptions
+mark which talents you've taken
+zoom the talent spell icon a bit
+------------------------------------------------------------------------

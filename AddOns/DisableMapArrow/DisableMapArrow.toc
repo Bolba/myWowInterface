@@ -1,0 +1,6 @@
+## Interface: 50400
+## Title: DisableMapArrow
+## Notes: Removes mouse interactivity for the player arrow on the world map
+## Version: 1
+## Author: Semlar
+DisableMapArrow.lua

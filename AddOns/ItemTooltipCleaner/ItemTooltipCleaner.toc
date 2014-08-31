@@ -1,0 +1,37 @@
+## Interface: 50400
+## Version: 5.4.8.71
+
+## Title: Item Tooltip Cleaner
+## Notes: Removes extraneous lines from item tooltips.
+
+## Notes-deDE: Überflüssigen Linien in Ausrüstungs-Tooltips ausblenden.
+## Notes-esES: Eliminar las líneas superfluas en los descripciones de objetos.
+## Notes-esMX: Eliminar las líneas superfluas en los descripciones de objetos.
+## Notes-ptBR: Remover o linhas supérfluos nas dicas de itens.
+## Notes-ruRU: Удалить лишний текст в описанию предметов.
+## Notes-zhCN: 简化装备属性文本并从装备提示信息中移除多余的行.
+## Notes-zhTW: 簡化裝備加成文字與移除物品提示多餘的文字。
+
+## Author: Phanx
+## X-Email: addons@phanx.net
+## X-Credits: Originally written by Akkorian. Inspired by dlemvigh's PhoenixTooltip.
+## X-Copyright: Copyright (c) 2010-2014 Akkorian, Phanx. All rights reserved.
+## X-License: See accompanying LICENSE file for details.
+## X-CompatibleLocales: enUS, deDE, esES, esMX, frFR, itIT, koKR, ptBR, ruRU, zhCN, zhTW
+## X-Localizations: enUS, deDE, esES, esMX, ptBR, ruRU, zhCN, zhTW
+## X-Website: http://www.wowinterface.com/downloads/info19129-ItemTooltipCleaner.html
+## X-Curse-Project-ID: itemtooltipcleaner
+## X-WoWI-ID: 19129
+
+## SavedVariables: ItemTooltipCleanerSettings
+
+Libs\LibStub\LibStub.lua
+Libs\LibAboutPanel\LibAboutPanel.lua
+Libs\PhanxConfig-Checkbox\PhanxConfig-Checkbox.lua
+Libs\PhanxConfig-ColorPicker\PhanxConfig-ColorPicker.lua
+Libs\PhanxConfig-Header\PhanxConfig-Header.lua
+Libs\PhanxConfig-OptionsPanel\PhanxConfig-OptionsPanel.lua
+
+localization.lua
+addon.lua
+options.lua

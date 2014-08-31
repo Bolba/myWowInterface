@@ -1,0 +1,14 @@
+tag 1.5
+807770321afcb65f9ca3cc23c66bb538fbb91157
+ascott18 <ascott@eagles.ewu.edu>
+2013-07-22 03:09:50 -0700
+
+Tagging as 1.5
+
+
+--------------------
+
+ascott18:
+	- Removed file that popped up for some reason
+	- Version bump to WoW 50300
+	- Initial commit

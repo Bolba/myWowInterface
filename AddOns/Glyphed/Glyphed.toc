@@ -1,0 +1,10 @@
+## Interface: 50400
+## Title: Glyphed
+## Notes: Show which alts don't know a glyph in tooltips
+## Author: Nathanyel
+## Version: 0.3b
+## SavedVariables: GlyphedDB
+## Dependencies: Blizzard_TradeSkillUI, Blizzard_TalentUI, Blizzard_GlyphUI
+
+embeds.xml
+Glyphed.lua

@@ -1,0 +1,17 @@
+tag v1.2.2
+bc85bc3c45a467e3d31d80ec00026212c6d02c72
+Colin Friend <dragoonreas@gmail>
+2014-01-08 20:50:05 +1100
+
+Tagging as v1.2.2
+
+
+--------------------
+
+Colin Friend:
+	- Fixed .gitignore file
+	Stopped the embed.xml file from being ignored.
+	- Added raid group check
+	Added error check for when trying to do the quest in a raid group.
+	Fixed bug with event arguments.
+	Removed redundant code.

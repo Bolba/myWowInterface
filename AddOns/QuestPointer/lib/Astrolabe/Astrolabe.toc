@@ -1,0 +1,10 @@
+## Interface: 50001
+## Title: Astrolabe |cff224477(lib)
+## Notes: A library for drawing icons on the Minimap and World Maps.
+## Version: 1.0
+## Author: Esamynn (James Carrothers)
+## X-Curse-Packaged-Version: v12
+## X-Curse-Project-Name: QuestPointer
+## X-Curse-Project-ID: questpointer
+## X-Curse-Repository-ID: wow/questpointer/mainline
+Load.xml

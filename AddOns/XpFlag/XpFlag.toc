@@ -1,0 +1,10 @@
+## Interface: 50400
+## Title: XpFlag
+## Author: Drathal
+## Version: 1
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: XpFlagDB
+
+embeds.xml
+XpFlag.lua

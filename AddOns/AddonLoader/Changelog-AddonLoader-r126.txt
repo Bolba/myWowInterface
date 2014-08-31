@@ -1,0 +1,14 @@
+------------------------------------------------------------------------
+r126 | mikk | 2013-03-17 16:25:37 +0000 (Sun, 17 Mar 2013) | 2 lines
+Changed paths:
+   M /trunk/Conditions.lua
+
+"X-LoadOn-Always: delayed" will now cease loading addons in combat. It resumes loading addons AFTER combat. This is due to Blizzard placing restrictions on how much CPU we can use during combat.
+IF you want your addons to load in combat, use "X-LoadOn-Combat: true" and hope for the best.
+------------------------------------------------------------------------
+r125 | mikk | 2013-03-10 14:42:48 +0000 (Sun, 10 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/AddonLoader.toc
+
+TOC 50200
+------------------------------------------------------------------------

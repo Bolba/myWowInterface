@@ -1,0 +1,52 @@
+## Interface: 50400
+## Title: Timeless Answers
+## Title-ptBR: Respostas Timeless
+## Title-frFR: Réponse éternelle
+## Title-deDE: Zeitlose Antworten
+## Title-itIT: Risposte senza tempo
+## Title-koKR: 영원한 답변
+## Title-esMX: Respuestas Timeless
+## Title-ruRU: Timeless ответы
+## Title-zhCN: Timeless Answers
+## Title-esES: Respuestas Timeless
+## Title-zhTW: 永恆的提問
+#@debug@
+# ## Title: Timeless Answers - Developement Version
+#@end-debug@
+## Notes: Auto-completes the 'A Timeless Question' daily quest on the Timeless Isle.
+## Notes-ptBR: Auto-completa a busca diária 'A Timeless Pergunta' no Timeless Isle.
+## Notes-frFR: Auto-complète la quête journalière "Éternelle question" sur l'Île du Temps figé.
+## Notes-deDE: Schliesst die tägliche Quest "Eine zeitlose Frage" auf der Zeitlosen Insel automatisch ab.
+## Notes-itIT: Auto-completa il 'Una domanda senza tempo' di ricerca quotidiana sull'isola senza tempo.
+## Notes-koKR: 영원한 섬의 '영원한 질문'일일 퀘스트를 자동 완성합니다.
+## Notes-esMX: Auto-completa la misión diaria "Una pregunta Timeless 'en el Timeless Isle.
+## Notes-ruRU: Авто-завершает ежедневный квест "вневременной вопрос" на Timeless острове.
+## Notes-zhCN: 在永恒岛上自动完成“永恒之疑”日常任务。
+## Notes-esES: Auto-completa la misión diaria "Una pregunta Timeless 'en el Timeless Isle.
+## Notes-zhTW: 自動完成永恆之島的「永恆的提問」每日任務。
+#@debug@
+# ## Notes: Latest Alpha Version of Timeless Answers.
+#@end-debug@
+## Author: Colin Friend
+## X-Translation-Credits: http://wow.curseforge.com/addons/timeless-answers/localization/translators/
+## Version: v1.2.2
+## X-Revision: 7b0a00c
+## X-Last-Updated: 2014-01-08T09:48:20Z
+## OptionalDeps: Ace3
+#@debug@
+# ## SavedVariables: TALocalexporterDB
+#@end-debug@
+## DefaultState: enabled
+## X-Curse-Packaged-Version: v1.2.2
+## X-Curse-Project-Name: Timeless Answers
+## X-Curse-Project-ID: timeless-answers
+## X-Curse-Repository-ID: wow/timeless-answers/mainline
+
+#@no-lib-strip@
+Libs\embeds.xml
+#@end-no-lib-strip@
+Locales\locale.xml
+#@debug@
+# Localexporter.lua
+#@end-debug@
+TimelessAnswers.lua

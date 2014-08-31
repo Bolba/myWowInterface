@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r230 | sutorix | 2014-02-27 05:10:21 +0000 (Thu, 27 Feb 2014) | 1 line
+Changed paths:
+   A /tags/Release 0.8.1 (from /trunk:229)
+
+Tagging as Release 0.8.1
+------------------------------------------------------------------------
+r228 | sutorix | 2014-02-27 05:08:03 +0000 (Thu, 27 Feb 2014) | 1 line
+Changed paths:
+   M /trunk/FishingAce.toc
+
+FishingAce: bump version number
+------------------------------------------------------------------------
+r227 | sutorix | 2014-02-27 05:07:26 +0000 (Thu, 27 Feb 2014) | 1 line
+Changed paths:
+   M /trunk/LibFishing-1.0.lua
+
+FishingAce: LibFishing update to remove item lock span, move bare function into table.
+------------------------------------------------------------------------

@@ -1,0 +1,64 @@
+
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+	<Frame name="ZoneLevelInfoFrame"  parent="WorldMapFrame">
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="$parent_MainText" inherits="GameFontHighlightLarge">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="WorldMapDetailFrame">
+							<Offset>
+								<AbsDimension x="60" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parent_Key" inherits="GameFontHighlight">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent_MainText">
+							<Offset>
+								<AbsDimension x="0" y="-20"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parent_LevelRange" inherits="GameFontHighlight">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent_Key">
+							<Offset>
+								<AbsDimension x="0" y="-16"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parent_ExtraText" inherits="GameFontHighlight">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent_LevelRange">
+							<Offset>
+								<AbsDimension x="0" y="-16"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="$parent_ExtraText2" inherits="GameFontHighlight">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent_ExtraText">
+							<Offset>
+								<AbsDimension x="0" y="-16"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnUpdate>
+				ZoneLevelInfo_OnUpdate(self, elapsed);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+
+</Ui>

@@ -1,0 +1,7 @@
+## Title: GemCounter
+## Notes: Displays how many red/blue/yellow gems you have
+## Version: 0.2
+## Author: Killakhan
+## Interface: 40000
+## SavedVariablesPerCharacter: 
+GemCounter.lua

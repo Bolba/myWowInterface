@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<GameTooltip name="LibSimcraftParserTooltip" inherits="GameTooltipTemplate"/>
+	<Script file="LibSimcraftParser.lua"/>
+	<Script file="LibSimcraftParser_APL.lua"/>
+	<Script file="LibSimcraftParser_Utils.lua"/>
+	<Script file="LibSimcraftParser_Spells.lua"/>
+	<Script file="LibSimcraftParser_DeathKnight.lua"/>
+	<Script file="LibSimcraftParser_Druid.lua"/>
+	<Script file="LibSimcraftParser_Hunter.lua"/>
+	<Script file="LibSimcraftParser_Rogue.lua"/>
+	<Script file="LibSimcraftParser_Shaman.lua"/>
+</Ui>
