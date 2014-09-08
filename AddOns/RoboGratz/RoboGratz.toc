@@ -1,0 +1,10 @@
+## Interface: 50400
+## Title: RoboGratz
+## Version: 1
+## Author: Drathal
+
+libs\LibStub\LibStub.lua
+libs\AceTimer-3.0\AceTimer-3.0.xml
+
+RoboGratz.lua
+
