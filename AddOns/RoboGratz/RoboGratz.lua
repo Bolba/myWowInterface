@@ -2,6 +2,7 @@ RoboGratz = LibStub("AceAddon-3.0"):NewAddon("RoboGratz", "AceEvent-3.0", "AceTi
 
 local defaults = {
     delay = 20,
+    delayPlayer = 10,
     answerDelay = {
         min = 2,
         max = 5
@@ -57,6 +58,7 @@ end
 
 function RoboGratz:OnEnable()
     self:RegisterEvent("CHAT_MSG_GUILD")
+    self:RegisterEvent("CHAT_MSG_GUILD_ACHIEVEMENT")
     self.lastAutoGreet = 0;
 end
 
@@ -68,6 +70,18 @@ function RoboGratz:ChatMessage(msg)
     SendChatMessage(msg, "GUILD")
 end
 
+function RoboGratz:AwnserRequest(identType, awnserType, msg, senderName)
+    for i = 1, #defaults[identType] do
+        if (string.find(string.gsub(msg, "(.*)", " %1 "), "[^%a]" .. defaults[identType][i] .. "[^%a]")) then
+            self:ScheduleTimer("ChatMessage",
+                math.random(defaults.answerDelay.min, defaults.answerDelay.max),
+                string.gsub(weighted_random_choice(defaults[awnserType]), "{name}", senderName))
+            self.lastAutoGreet = time() + defaults.delay
+            return
+        end
+    end
+end
+
 function RoboGratz:CHAT_MSG_GUILD(...)
 
     local _, msg, senderName = ...
@@ -75,50 +89,15 @@ function RoboGratz:CHAT_MSG_GUILD(...)
     senderName = string.gsub(senderName, "%-[^|]+", "")
 
     if (senderName == UnitName("player")) then
-        self.lastAutoGreet = time() + defaults.delay / 2
+        self.lastAutoGreet = time() + defaults.delayPlayer
         return
     end
 
     if (self.lastAutoGreet < time()) then
-
-        -- re
-        for i = 1, #defaults.ident_re do
-            if (string.find(string.gsub(msg, "(.*)", " %1 "), "[^%a]" .. defaults.ident_re[i] .. "[^%a]")) then
-                self:ScheduleTimer("ChatMessage",
-                    math.random(defaults.answerDelay.min, defaults.answerDelay.max),
-                    string.gsub(weighted_random_choice(defaults.re), "{name}", senderName)
-                )
-                self.lastAutoGreet = time() + defaults.delay
-                return
-            end
-        end
-
-        -- greet
-        for i = 1, #defaults.ident_greet do
-            if (string.find(string.gsub(msg, "(.*)", " %1 "), "[^%a]" .. defaults.ident_greet[i] .. "[^%a]")) then
-                self:ScheduleTimer("ChatMessage",
-                    math.random(defaults.answerDelay.min, defaults.answerDelay.max),
-                    string.gsub(weighted_random_choice(defaults.greet), "{name}", senderName)
-                )
-                self.lastAutoGreet = time() + defaults.delay
-                return
-            end
-        end
-
-        -- bye
-        for i = 1, #defaults.ident_bye do
-            if (string.find(string.gsub(msg, "(.*)", " %1 "), "[^%a]" .. defaults.ident_bye[i] .. "[^%a]")) then
-                self:ScheduleTimer("ChatMessage",
-                    math.random(defaults.answerDelay.min, defaults.answerDelay.max),
-                    string.gsub(weighted_random_choice(defaults.bye), "{name}", senderName)
-                )
-                self.lastAutoGreet = time() + defaults.delay
-                return
-            end
-        end
-
+        self:AwnserRequest('ident_re', 're', msg, senderName)
+        self:AwnserRequest('ident_greet', 'greet', msg, senderName)
+        self:AwnserRequest('ident_bye', 'bye', msg, senderName)
     end
-
 end
 
 function RoboGratz:CHAT_MSG_GUILD_ACHIEVEMENT(...)
@@ -127,18 +106,15 @@ function RoboGratz:CHAT_MSG_GUILD_ACHIEVEMENT(...)
     senderName = string.gsub(senderName, "%-[^|]+", "")
 
     if (senderName == UnitName("player")) then
-        self.lastAutoGreet = time() + defaults.delay / 2
+        self.lastAutoGreet = time() + defaults.delayPlayer
         return
     end
 
     if (self.lastAutoGreet < time()) then
-
         self:ScheduleTimer("ChatMessage",
             math.random(defaults.answerDelay.min, defaults.answerDelay.max),
-            string.gsub(weighted_random_choice(defaults.gz), "{name}", senderName)
-        )
+            string.gsub(weighted_random_choice(defaults.gz), "{name}", senderName))
         self.lastAutoGreet = time() + defaults.delay
-
     end
 end
 
