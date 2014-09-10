@@ -1,4 +1,4 @@
-## Interface: 50200
+## Interface: 50400
 ## X-Curse-Packaged-Version: r126
 ## X-Curse-Project-Name: AddonLoader
 ## X-Curse-Project-ID: addon-loader

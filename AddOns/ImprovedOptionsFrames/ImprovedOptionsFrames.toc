@@ -1,4 +1,4 @@
-﻿## Interface: 50300
+﻿## Interface: 50400
 ## Title: Improved Options Frames
 ## Version: 1.5
 ## Author: Cybeloras of Detheroc/Mal'Ganis
